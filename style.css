@@ -1,0 +1,9 @@
+* { /* universal selector */
+    border: 1px solid red;
+}
+nav {
+    border: 5px solid blue;
+}
+ul {
+    border: 2px solid black;
+}
