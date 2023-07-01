@@ -1,4 +1,40 @@
-* { /* universal selector */
+nav ul { 
+    list-style-type: none; /* turns off the dots */
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+nav a:focus {
+    background-color: #f0c808;
+    color: black;
+}
+nav a:hover {
+    color: #ff583d;
+}
+
+
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+/* * { / universal selector /
     border: 1px solid red;
 }
 nav {
@@ -7,3 +43,9 @@ nav {
 ul {
     border: 2px solid black;
 }
+li {
+    border: 2px solid green;
+}
+a {
+    background-color: yellow;
+} */
