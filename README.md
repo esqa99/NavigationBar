@@ -1,2 +1,2 @@
 # NavigationBar
-Personal project on how to make a navigation bar for a website
+Just a personal project to practice making a navigation bar and using git
