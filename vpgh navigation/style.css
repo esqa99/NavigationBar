@@ -1,0 +1,42 @@
+nav {
+    border-right: 5px solid #0966c2;
+    width: 30%;
+    height: 100vh; /* view per units=porportion of screen*/
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+    line-height: 2rem;
+}
+nav a {
+    color: #0966C2;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+nav a:focus {
+    color: #F3BA64;
+}
+nav a:hover {
+    color: white;
+    background-color: #0966C2;
+}
+nav a:hover i {
+    color: #F3BA64;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Verta", sans-serif;
+    margin: 0;
+    padding: 0;
+}
